@@ -118,16 +118,6 @@ export default function LoginPage() {
           </button>
         </div>
       </div>
-
-      {/* Setup notice */}
-      <div className="mt-8 bg-surface2 border border-border rounded-2xl p-4 w-full">
-        <p className="text-xs text-gray-500 font-syne font-semibold uppercase tracking-wider mb-2">Setup Required</p>
-        <p className="text-xs text-gray-500 leading-relaxed">
-          Add your <span className="text-accent font-medium">VITE_SUPABASE_URL</span> and{' '}
-          <span className="text-accent font-medium">VITE_SUPABASE_ANON_KEY</span> to a <code className="text-accent">.env</code> file,
-          then run the SQL schema from <code className="text-gray-400">src/lib/supabase.js</code>.
-        </p>
-      </div>
     </div>
   )
 }
